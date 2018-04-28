@@ -3,13 +3,16 @@ import matplotlib.pyplot as plt
 import numpy as np
 import librosa
 import copy
-#import IPython.display
+import serial
+# import IPython.display
 #from IPython.display import Image
 #%matplotlib inline
 
 D_E_B_U_G = 0
 
 EXTRA_TRAIN = 0
+
+comport = serial.Serial("COM8", 9600)
 
 # REMOVE MEAN AND NORMALIZE EACH COLUMN OF MFCC
 def preprocess_mfcc(mfcc):
@@ -103,6 +106,9 @@ word = yTest[word_samp_bounds[0]:word_samp_bounds[1]]
 
 print(dists)
 np.savetxt('answer.csv', dists)
+
+comport.write(b"a")
+comport.close()
 
 #librosa.output.write_wav('answer.wav',word,22000)
 
