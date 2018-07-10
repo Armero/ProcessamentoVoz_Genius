@@ -50,6 +50,7 @@ void ShowSequence() {
 		digitalWrite(orderLEDs[gameArray[i]], HIGH);
 		delay(SEQUENCE_DELAY);
 		digitalWrite(orderLEDs[gameArray[i]], LOW);
+		delay(SEQUENCE_DELAY/5);
 	}
 	gameSetup = 2;
 }

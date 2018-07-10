@@ -1,0 +1,18 @@
+Para a amostra  //branco_test1//  a cor identificada é BRANCO
+TIME TO PROCESS: 0.021021127700805664
+Para a amostra  //branco_test2//  a cor identificada é BRANCO
+TIME TO PROCESS: 0.02802872657775879
+Para a amostra  //branco_test3//  a cor identificada é BRANCO
+TIME TO PROCESS: 0.027026891708374023
+Para a amostra  //azul_test1//  a cor identificada é AZUL
+TIME TO PROCESS: 0.03203248977661133
+Para a amostra  //azul_test2//  a cor identificada é BRANCO
+TIME TO PROCESS: 0.02902960777282715
+Para a amostra  //azul_test3//  a cor identificada é AZUL
+TIME TO PROCESS: 0.033032894134521484
+Para a amostra  //vermelho_test1//  a cor identificada é VERMELHO
+TIME TO PROCESS: 0.03703737258911133
+Para a amostra  //vermelho_test2//  a cor identificada é VERMELHO
+TIME TO PROCESS: 0.03803873062133789
+Para a amostra  //vermelho_test3//  a cor identificada é VERMELHO
+TIME TO PROCESS: 0.04804873466491699
